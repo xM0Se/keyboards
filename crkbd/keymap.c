@@ -21,16 +21,16 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #include "layers/layers.h"
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
-    #include "layers/base-layer.h"
-    #include "layers/number-layer.h"
-    #include "layers/symbol-layer.h"
-    #include "layers/arrow-layer.h"
-    #include "layers/onshape-layer.h"
-    #include "layers/onshape-numbers-layer.h"
+    #include "layers/base.h"
+    #include "layers/number.h"
+    #include "layers/symbol.h"
+    #include "layers/arrow.h"
+    #include "layers/onshape.h"
+    #include "layers/onshape-num.h"
 };
 
-#include "led.c"
-#include "oled.c"
+#include "led/led.c"
+#include "oled/oled.c"
 #include "tap-dances/tap-dances.c"
-#include "combos.c"
-#include "raw-hid.c"
+#include "combos/combos.c"
+#include "raw-hid/raw-hid.c"

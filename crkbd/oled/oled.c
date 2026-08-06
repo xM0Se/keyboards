@@ -24,14 +24,14 @@ bool oled_task_user(void) {
             case _ONSHAPE:
                 oled_write("onshape layer", false);
                 break;
-            case _ONSHAPE_NUMBERS:
+            case _ONSHAPE_NUM:
                 oled_write("onshape numbers layer", false);
                 break;
         }
         return false;
 
 
-    } else { /* left side ^ */ /* rigth side */
+    } else { /* left side ^ */ /* right side */
 
         oled_write("hello world",false);
 

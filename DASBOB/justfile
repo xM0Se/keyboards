@@ -1,0 +1,2 @@
+compile:
+    qmk compile -kb dasbob -km default
